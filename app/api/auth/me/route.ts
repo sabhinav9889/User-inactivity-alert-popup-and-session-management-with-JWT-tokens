@@ -22,7 +22,7 @@ export async function GET() {
   const { value } = token;
 
   // Always check this
-  const secret = process.env.JWT_SECRET || "";
+  const secret = process.env.JWT_SECRET || "raw123";
 
   try {
     verify(value, secret);
@@ -30,7 +30,6 @@ export async function GET() {
     const response = {
       user: "Super Top Secret User",
     };
-
     return new Response(JSON.stringify(response), {
       status: 200,
     });

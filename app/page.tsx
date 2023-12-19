@@ -2,6 +2,11 @@
 
 import axios, { AxiosError } from "axios";
 import { useRouter } from "next/navigation";
+import React from "react";
+// import { useEffect } from "react";
+
+
+
 
 export default function Home() {
   const { push } = useRouter();
@@ -57,6 +62,12 @@ export default function Home() {
         <button
           type="submit"
           className="p-2 bg-orange-600 text-white w-fit rounded"
+        >
+          Submit
+        </button>
+        <button
+          type="submit" 
+          className="p-2 bg-blue-600 text-orange w-fit rounded"
         >
           Submit
         </button>

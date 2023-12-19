@@ -1,0 +1,18 @@
+{
+  "cssImports": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\layout.tsx": [
+      "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\globals.css"
+    ]
+  },
+  "cssModules": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\page": [
+      "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\globals.css",
+      "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\dashboard\\page": [
+      "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\globals.css",
+      "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  }
+}

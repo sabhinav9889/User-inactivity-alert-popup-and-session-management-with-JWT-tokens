@@ -5,12 +5,14 @@ import { NextResponse } from "next/server";
 
 const MAX_AGE = 60 * 60 * 24 * 30; // days;
 
+var list = [];
+
 export async function POST(request: Request) {
   const body = await request.json();
 
   const { username, password } = body;
 
-  if (username !== "admin" || password !== "admin") {
+  if (username !== "admin" || password !== "admin@007") {
     return NextResponse.json(
       {
         message: "Unauthorized",
@@ -22,7 +24,7 @@ export async function POST(request: Request) {
   }
 
   // Always check this
-  const secret = process.env.JWT_SECRET || "";
+  const secret = process.env.JWT_SECRET || "raw123";
 
   const token = sign(
     {
@@ -33,7 +35,9 @@ export async function POST(request: Request) {
       expiresIn: MAX_AGE,
     }
   );
-
+  
+  list.push(token);
+  
   const seralized = serialize(COOKIE_NAME, token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
@@ -48,6 +52,6 @@ export async function POST(request: Request) {
 
   return new Response(JSON.stringify(response), {
     status: 200,
-    headers: { "Set-Cookie": seralized },
-  });
+    headers: { "Set-Cookie": seralized }, 
+  }); 
 }
