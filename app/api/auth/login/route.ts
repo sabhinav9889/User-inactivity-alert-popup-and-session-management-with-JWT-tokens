@@ -3,9 +3,10 @@ import { serialize } from "cookie";
 import { sign } from "jsonwebtoken";
 import { NextResponse } from "next/server";
 
-const MAX_AGE = 60 * 60 * 24 * 30; // days;
+// import React, { useContext } from 'react';
+// import {MyContext} from '../contexts/myContext';
 
-var list = [];
+const MAX_AGE = 60 * 60 * 24 * 30; // days;
 
 export async function POST(request: Request) {
   const body = await request.json();
@@ -29,6 +30,7 @@ export async function POST(request: Request) {
   const token = sign(
     {
       username,
+      password,
     },
     secret,
     {
@@ -36,8 +38,22 @@ export async function POST(request: Request) {
     }
   );
   
-  list.push(token);
-  
+  // const { list, addItem, removeItem } = useContext(MyContext);
+
+  // addItem(token);
+  // console.log(list);
+  // const payload = {
+  //   tkn: token,
+  // };
+  // const res = await axios.post('/api/auth/listApi', payload).then((response)=>{console.log(response)}).catch(err => console.log(err));
+  const res = await fetch('http://localhost:3000/api/auth/listApi', {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ item: token, name: username}),
+  });
+
   const seralized = serialize(COOKIE_NAME, token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",

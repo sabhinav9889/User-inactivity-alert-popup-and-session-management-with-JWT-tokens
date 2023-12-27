@@ -4,7 +4,11 @@ import axios, { AxiosError } from "axios";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { destroyCookie } from 'nookies';
+// import { destroyCookie } from 'nookies';
+// import { cookies } from "next/headers"
+// import { COOKIE_NAME } from "@/constants";
+// import React, { useContext } from 'react';
+// import {MyContext} from '../contexts/myContext';
 
 interface UserResponse {
   user: string | null;
@@ -18,7 +22,7 @@ export default function DashboardLayout({
 }) {
   const [isSuccess, setIsSuccess] = useState<boolean>(false);
   const { push } = useRouter();
-
+  // const { list, addItem, removeItem } = useContext(MyContext);
   useEffect(() => {
     (async () => {
       const { user, error } = await getUser();
@@ -34,16 +38,9 @@ export default function DashboardLayout({
   }, [push]);
 
   let inactivityTimeout: NodeJS.Timeout;
-  const handleLogout = () => {
-    // Perform logout or other actions (e.g., redirect to the login page)
+  const handleLogout = async() => {
       alert('User logged out due to inactivity');  // Pop up
-      localStorage.removeItem('OurSiteJWT');
-      function deleteCookie(name:'OurSiteJWT') {  
-        destroyCookie(null, 'OurSiteJWT', { path: '/' });
-        // document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-      }
-      // Example: Assume your JWT token is stored in a cookie named 'jwtToken'
-      deleteCookie('OurSiteJWT');
+      const { data } = await axios.get("/api/auth/logout");
   };
   const resetInactivityTimer = () => {    
     clearTimeout(inactivityTimeout);
@@ -63,7 +60,7 @@ export default function DashboardLayout({
     // Initialize the inactivity timer on component mount
     resetInactivityTimer();
 
-    // Detach event listeners on component unmount
+    // Detach event listeners on component unmount  
     return () => {
       document.removeEventListener('mousemove', handleUserActivity);
       document.removeEventListener('click', handleUserActivity);

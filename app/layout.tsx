@@ -1,8 +1,11 @@
+"use client"
 import './globals.css'
 import { Inter } from 'next/font/google'
 import React from 'react';
+// import {MyContext} from './api/auth/contexts/myContext';
+// import { useState } from 'react';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Create Next App',
@@ -20,13 +23,12 @@ export default function RootLayout(
 }: {
   children: React.ReactNode
 }) {
-  
   return (
-    <html lang="en">
-      <body className={inter.className}>
-         {/* <InactivityTracker onLogout={handleLogout} /> */}
-         {children}
-      </body>
-    </html>
+        <html lang="en">
+          <body className={inter.className}>
+              {/* <InactivityTracker onLogout={handleLogout} /> */}
+              {children}
+          </body>
+        </html>
   )
 }

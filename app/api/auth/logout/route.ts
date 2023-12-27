@@ -1,5 +1,14 @@
-export default (req:any, res:any) => {
-    // Clear the token by setting an expired cookie
-    res.setHeader('Set-Cookie', 'token=; HttpOnly; Path=/; Max-Age=0');
-    return res.status(200).json({ success: true });
+import { COOKIE_NAME } from "@/constants";
+import { cookies } from "next/headers";
+
+export async  function GET() {
+    const cookieStore = cookies();
+    const token = cookieStore.get(COOKIE_NAME);
+    return await fetch('http://localhost:3000/api/auth/listApi', {
+        method: 'DELETE',
+        headers: {
+        'Content-Type': 'application/json',
+        'item' : String(token),
+        },
+    });
 };
