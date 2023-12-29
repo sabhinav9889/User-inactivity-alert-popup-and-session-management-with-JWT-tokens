@@ -281,6 +281,26 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./app/popup/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/popup/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/popup/page.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/popup/page.tsx",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -1120,6 +1140,37 @@
       "name": "default",
       "chunks": [
         "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\tailwindcss\\tailwind.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/popup/page.css"
+      ]
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\popup\\page.tsx": {
+      "id": "(app-client)/./app/popup/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/popup/page:static/chunks/app/popup/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\popup\\page.tsx#": {
+      "id": "(app-client)/./app/popup/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/popup/page:static/chunks/app/popup/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\popup\\page.tsx#default": {
+      "id": "(app-client)/./app/popup/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/popup/page:static/chunks/app/popup/page.js"
       ],
       "async": false
     }

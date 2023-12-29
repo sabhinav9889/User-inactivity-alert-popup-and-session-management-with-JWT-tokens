@@ -46,6 +46,7 @@ export async function GET() {
     //   },
     //   body: JSON.stringify({ item: value }), // Include your data in the body
     // });
+    console.log(value);
     const res = await fetch('http://localhost:3000/api/auth/listApi', {
       method: 'POST',
       headers: {

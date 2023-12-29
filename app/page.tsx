@@ -34,7 +34,6 @@ export default function Home() {
   return (
     <main>
       <h1>Nextjs authentication JWT verify http cookie only</h1>
-
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <div>
           <label htmlFor="username">Username:</label>
