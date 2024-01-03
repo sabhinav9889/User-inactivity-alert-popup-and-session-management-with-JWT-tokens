@@ -46,15 +46,15 @@ export async function GET() {
     //   },
     //   body: JSON.stringify({ item: value }), // Include your data in the body
     // });
-    console.log(value);
-    const res = await fetch('http://localhost:3000/api/auth/listApi', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'item': value,
-      },
-    });
-    if(res.status === 401) throw new Error;
+    // console.log(value);
+    // const res = await fetch('http://localhost:3000/api/auth/listApi', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //     'item': value,
+    //   },
+    // });
+    // if(res.status === 401) throw new Error;
     return new Response(JSON.stringify(response), {
       status: 200,
     });

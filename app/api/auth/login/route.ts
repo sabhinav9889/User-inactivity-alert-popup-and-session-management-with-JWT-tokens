@@ -58,16 +58,16 @@ export async function POST(request: Request) {
   const response = {
     message: "Authenticated!",
   };
-  console.log(token);
-  const res = await fetch('http://localhost:3000/api/auth/listApi', {       //storing token as statefull
-    method: 'PUT',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ item: token, name: username}),
-  });
+  // console.log(token);
+  // const res = await fetch('http://localhost:3000/api/auth/listApi', {       //storing token as statefull
+  //   method: 'PUT',
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //   },
+  //   body: JSON.stringify({ item: token, name: username}),
+  // });
 
-  if(res.status===200)
+  // if(res.status===200)
   return new Response(JSON.stringify(response), {
     status: 200,
     headers: { "Set-Cookie": seralized }, 

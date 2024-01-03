@@ -25,6 +25,9 @@ export default function RootLayout(
 }) {
   return (
         <html lang="en">
+          <head>
+            <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcaqkApAAAAAGadmPPxtME3R4lLUGqjKI6v_yzP"/>
+          </head>
           <body className={inter.className}>
               {/* <InactivityTracker onLogout={handleLogout} /> */}
               {children}

@@ -3,21 +3,36 @@
 import axios, { AxiosError } from "axios";
 import { useRouter } from "next/navigation";
 import React from "react";
+// import {grecaptha} from '@google-cloud/recaptcha-enterprise';
 // import { useEffect } from "react";
 
 
 export default function Home() {
   const { push } = useRouter();
-
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-
-    const payload = {
-      username: event.currentTarget.username.value,
-      password: event.currentTarget.password.value,
-    };
-
+    try{
+      grecaptcha.enterprise.ready(async () => {
+        grecaptcha
+          .enterprise
+          .execute('6LcaqkApAAAAAGadmPPxtME3R4lLUGqjKI6v_yzP', { action: 'LOGIN' })
+          .then(async(token) => {
+            // Send the token to your backend for assessment
+            // console.log(token);
+            const {data} = await axios.post("http://localhost:3000/api/auth/verifyRecaptha", {tokn : token});
+            alert(JSON.stringify(data));
+          });
+      });
+    } catch(e){
+      const error = e as AxiosError;
+      console.log(error); 
+      alert("bot");
+    }
     try {
+      const payload = {
+        username: event.currentTarget.username.value,
+        password: event.currentTarget.password.value,
+      };
       const { data } = await axios.post("/api/auth/login", payload);
 
       alert(JSON.stringify(data));

@@ -46,7 +46,7 @@ export async function POST(request: Request){
 
 export async function DELETE(request: Request){
     const item = request.headers.get('item');
-    await removeValue(String(item));
+    removeValue(String(item));
     return NextResponse.json(
         {
           message: "Remove token successfully",
