@@ -3,7 +3,7 @@ import React, { use, useEffect } from 'react';
 import { useState } from 'react';
 import { useRouter } from "next/navigation";
 import axios, { AxiosError } from "axios";
-import {times, detTm} from '../../constants';
+// import {times, detTm} from '../../constants';
 import 'tailwindcss/tailwind.css';
 
 
@@ -19,14 +19,12 @@ const popUp: React.FC = ()=>{
     },[]);
     useEffect(() =>{
         if(count===0){ 
-            detTm();
             axios.get('http://localhost:3000/api/auth/logout');
             push('/');
             return;
         }
     });
     function func(){
-        detTm();
         push('/dashboard');
         return;
     }

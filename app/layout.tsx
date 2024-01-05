@@ -2,6 +2,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import React from 'react';
+import GoogleCaptchaWrapper from './captchaWrapper';
 // import {MyContext} from './api/auth/contexts/myContext';
 // import { useState } from 'react';
 
@@ -25,12 +26,11 @@ export default function RootLayout(
 }) {
   return (
         <html lang="en">
-          <head>
-            <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcaqkApAAAAAGadmPPxtME3R4lLUGqjKI6v_yzP"/>
-          </head>
           <body className={inter.className}>
+          <GoogleCaptchaWrapper>
               {/* <InactivityTracker onLogout={handleLogout} /> */}
               {children}
+          </GoogleCaptchaWrapper>
           </body>
         </html>
   )

@@ -1,7 +1,6 @@
 "use client"
-import { cookies } from "next/headers";
+// import { cookies } from "next/headers";
 import React from "react";
-import { useEffect } from "react";
 
 export default function DashboardPage() {
   // This page is protected

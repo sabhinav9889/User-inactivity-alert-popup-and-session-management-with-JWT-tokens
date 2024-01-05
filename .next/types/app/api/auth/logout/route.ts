@@ -1,4 +1,4 @@
-// File: C:\Users\Abhinav Singh\nextjs-latest-auth\app\api\auth\logout\route.ts
+// File: C:\Users\Abhinav Singh\nextjs-latest-auth ( v3)\app\api\auth\logout\route.ts
 import * as entry from '../../../../../../app/api/auth/logout/route.js'
 import type { NextRequest } from 'next/server.js'
 

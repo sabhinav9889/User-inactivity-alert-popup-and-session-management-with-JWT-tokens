@@ -1,4 +1,4 @@
-// File: C:\Users\Abhinav Singh\nextjs-latest-auth\app\page.tsx
+// File: C:\Users\Abhinav Singh\nextjs-latest-auth ( v3)\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

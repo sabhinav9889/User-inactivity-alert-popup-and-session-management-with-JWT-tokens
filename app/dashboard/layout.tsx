@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 
 // import {sessionIdToUserMap} from '.././../service/service';
 import Link from "next/link";
-import {times, setTm} from '../../constants';
+// import {times, setTm} from '../../constants';
 // import { destroyCookie } from 'nookies';
 // import { cookies } from "next/headers"
 // import { COOKIE_NAME } from "@/constants";
@@ -42,7 +42,7 @@ export default function DashboardLayout({
   const handleLogout = async() => {
       setRend(true);
       // alert('User logged out due to inactivity');  // Pop up
-      setTm();
+      // setTm();
       push('/popup');
   };
   

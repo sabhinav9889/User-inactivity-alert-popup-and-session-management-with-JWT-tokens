@@ -3,29 +3,42 @@
 import axios, { AxiosError } from "axios";
 import { useRouter } from "next/navigation";
 import React from "react";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 // import {grecaptha} from '@google-cloud/recaptcha-enterprise';
 // import { useEffect } from "react";
 
-
 export default function Home() {
   const { push } = useRouter();
+  const { executeRecaptcha } = useGoogleReCaptcha();
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    try{
-      grecaptcha.enterprise.ready(async () => {
-        grecaptcha
-          .enterprise
-          .execute('6LcaqkApAAAAAGadmPPxtME3R4lLUGqjKI6v_yzP', { action: 'LOGIN' })
-          .then(async(token) => {
-            // Send the token to your backend for assessment
-            // console.log(token);
-            const {data} = await axios.post("http://localhost:3000/api/auth/verifyRecaptha", {tokn : token});
-            alert(JSON.stringify(data));
-          });
-      });
-    } catch(e){
+    try {
+
+      if (!executeRecaptcha) {
+        console.log("not available to execute recaptcha");
+        return;
+      }
+
+      const gRecaptchaToken = await executeRecaptcha("inquirySubmit");
+
+      console.log(gRecaptchaToken);
+
+      ///
+      const data = {
+        token : gRecaptchaToken
+      }
+      
+      const response = await axios.post("/api/auth/verifyRecaptha",data);
+
+      if (response?.data?.success === true) {
+        console.log(`Success with score: ${response?.data?.score}`);
+        alert("human");
+      } else {
+        console.log(`Failure with score: ${response?.data?.score}`);
+      }
+    } catch (e) { 
       const error = e as AxiosError;
-      console.log(error); 
+      console.log(error);
       alert("bot");
     }
     try {
@@ -78,7 +91,7 @@ export default function Home() {
           Submit
         </button>
         <button
-          type="submit" 
+          type="submit"
           className="p-2 bg-blue-600 text-orange w-fit rounded"
         >
           Submit

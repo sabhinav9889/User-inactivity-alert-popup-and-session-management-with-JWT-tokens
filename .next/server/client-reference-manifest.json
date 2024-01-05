@@ -176,6 +176,26 @@
         "async": false
       }
     },
+    "(app-client)/./app/captchaWrapper.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/captchaWrapper.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/captchaWrapper.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/captchaWrapper.tsx",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./app/layout.tsx": {
       "*": {
         "id": "(sc_client)/./app/layout.tsx",
@@ -198,6 +218,26 @@
       "metadata": {
         "id": "(sc_client)/./app/layout.tsx",
         "name": "metadata",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "default",
         "chunks": [],
         "async": false
       }
@@ -262,26 +302,6 @@
         "async": false
       }
     },
-    "(app-client)/./app/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/page.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/page.tsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/page.tsx",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./app/popup/page.tsx": {
       "*": {
         "id": "(sc_client)/./app/popup/page.tsx",
@@ -305,7 +325,7 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -313,7 +333,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -321,7 +341,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -329,7 +349,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -337,7 +357,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -345,7 +365,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -353,15 +373,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "getServerActionDispatcher",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -369,7 +381,15 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "getServerActionDispatcher",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -377,7 +397,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -385,7 +405,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -393,7 +413,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -401,7 +421,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -409,7 +429,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -417,7 +437,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -425,7 +445,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -433,15 +453,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "ErrorBoundaryHandler",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -449,7 +461,15 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "ErrorBoundaryHandler",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -457,7 +477,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -465,7 +485,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -473,7 +493,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -481,7 +501,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -489,7 +509,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -497,7 +517,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -505,7 +525,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -513,15 +533,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
-      "name": "RedirectErrorBoundary",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -529,7 +541,15 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "RedirectErrorBoundary",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -537,7 +557,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -545,7 +565,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -553,7 +573,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -561,7 +581,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -569,7 +589,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -577,7 +597,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -585,7 +605,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -593,7 +613,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -601,7 +621,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -609,7 +629,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -617,7 +637,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -625,7 +645,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -633,7 +653,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -641,7 +661,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -649,7 +669,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -657,7 +677,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -665,7 +685,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -673,7 +693,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -681,7 +701,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -689,7 +709,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -697,7 +717,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -705,7 +725,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -713,7 +733,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -721,7 +741,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -729,7 +749,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -737,15 +757,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -753,7 +765,15 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -761,7 +781,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -769,7 +789,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -777,7 +797,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -785,7 +805,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -793,7 +813,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -801,15 +821,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -817,7 +829,15 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -825,7 +845,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -833,7 +853,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -841,7 +861,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -849,7 +869,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -857,7 +877,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -865,7 +885,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -873,7 +893,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -881,7 +901,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -889,7 +909,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -897,7 +917,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -905,7 +925,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -913,7 +933,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -921,7 +941,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -929,7 +949,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -937,7 +957,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -945,7 +965,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -953,7 +973,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -961,7 +981,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -969,7 +989,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -977,21 +997,45 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\globals.css#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\globals.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\layout.tsx": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\captchaWrapper.tsx": {
+      "id": "(app-client)/./app/captchaWrapper.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\captchaWrapper.tsx#": {
+      "id": "(app-client)/./app/captchaWrapper.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\captchaWrapper.tsx#default": {
+      "id": "(app-client)/./app/captchaWrapper.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\layout.tsx": {
       "id": "(app-client)/./app/layout.tsx",
       "name": "*",
       "chunks": [
@@ -999,7 +1043,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\layout.tsx#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\layout.tsx#": {
       "id": "(app-client)/./app/layout.tsx",
       "name": "",
       "chunks": [
@@ -1007,7 +1051,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\layout.tsx#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\layout.tsx#default": {
       "id": "(app-client)/./app/layout.tsx",
       "name": "default",
       "chunks": [
@@ -1015,7 +1059,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\layout.tsx#metadata": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\layout.tsx#metadata": {
       "id": "(app-client)/./app/layout.tsx",
       "name": "metadata",
       "chunks": [
@@ -1023,103 +1067,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\dashboard\\layout.tsx": {
-      "id": "(app-client)/./app/dashboard/layout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\dashboard\\layout.tsx#": {
-      "id": "(app-client)/./app/dashboard/layout.tsx",
-      "name": "",
-      "chunks": [
-        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\dashboard\\layout.tsx#default": {
-      "id": "(app-client)/./app/dashboard/layout.tsx",
-      "name": "default",
-      "chunks": [
-        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\dashboard\\page.tsx": {
-      "id": "(app-client)/./app/dashboard/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/dashboard/page:static/chunks/app/dashboard/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\dashboard\\page.tsx#": {
-      "id": "(app-client)/./app/dashboard/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/dashboard/page:static/chunks/app/dashboard/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\dashboard\\page.tsx#default": {
-      "id": "(app-client)/./app/dashboard/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/dashboard/page:static/chunks/app/dashboard/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\page.tsx": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\page.tsx": {
       "id": "(app-client)/./app/page.tsx",
       "name": "*",
       "chunks": [
@@ -1127,7 +1075,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\page.tsx#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\page.tsx#": {
       "id": "(app-client)/./app/page.tsx",
       "name": "",
       "chunks": [
@@ -1135,7 +1083,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\page.tsx#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\page.tsx#default": {
       "id": "(app-client)/./app/page.tsx",
       "name": "default",
       "chunks": [
@@ -1143,14 +1091,110 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\node_modules\\tailwindcss\\tailwind.css#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\dashboard\\layout.tsx": {
+      "id": "(app-client)/./app/dashboard/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\dashboard\\layout.tsx#": {
+      "id": "(app-client)/./app/dashboard/layout.tsx",
+      "name": "",
+      "chunks": [
+        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\dashboard\\layout.tsx#default": {
+      "id": "(app-client)/./app/dashboard/layout.tsx",
+      "name": "default",
+      "chunks": [
+        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/dashboard/layout:static/chunks/app/dashboard/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\dashboard\\page.tsx": {
+      "id": "(app-client)/./app/dashboard/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/dashboard/page:static/chunks/app/dashboard/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\dashboard\\page.tsx#": {
+      "id": "(app-client)/./app/dashboard/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/dashboard/page:static/chunks/app/dashboard/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\dashboard\\page.tsx#default": {
+      "id": "(app-client)/./app/dashboard/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/dashboard/page:static/chunks/app/dashboard/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\node_modules\\tailwindcss\\tailwind.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/popup/page.css"
       ]
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\popup\\page.tsx": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\popup\\page.tsx": {
       "id": "(app-client)/./app/popup/page.tsx",
       "name": "*",
       "chunks": [
@@ -1158,7 +1202,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\popup\\page.tsx#": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\popup\\page.tsx#": {
       "id": "(app-client)/./app/popup/page.tsx",
       "name": "",
       "chunks": [
@@ -1166,7 +1210,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth\\app\\popup\\page.tsx#default": {
+    "C:\\Users\\Abhinav Singh\\nextjs-latest-auth ( v3)\\app\\popup\\page.tsx#default": {
       "id": "(app-client)/./app/popup/page.tsx",
       "name": "default",
       "chunks": [
