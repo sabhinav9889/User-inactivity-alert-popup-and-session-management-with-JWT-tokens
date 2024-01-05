@@ -46,13 +46,6 @@ export async function POST(request: Request) {
   //   tkn: token,
   // };
   // const res = await axios.post('/api/auth/listApi', payload).then((response)=>{console.log(response)}).catch(err => console.log(err));
-  const res = await fetch('http://localhost:3000/api/auth/listApi', {
-    method: 'PUT',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ item: token, name: username}),
-  });
 
   const seralized = serialize(COOKIE_NAME, token, {
     httpOnly: true,
@@ -65,9 +58,18 @@ export async function POST(request: Request) {
   const response = {
     message: "Authenticated!",
   };
+  // console.log(token);
+  // const res = await fetch('http://localhost:3000/api/auth/listApi', {       //storing token as statefull
+  //   method: 'PUT',
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //   },
+  //   body: JSON.stringify({ item: token, name: username}),
+  // });
 
+  // if(res.status===200)
   return new Response(JSON.stringify(response), {
     status: 200,
     headers: { "Set-Cookie": seralized }, 
-  }); 
+  });
 }

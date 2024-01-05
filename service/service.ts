@@ -1,4 +1,4 @@
-var sessionIdToUserMap = new Map<string, string>();
+export var sessionIdToUserMap = new Map();
 
 export function setValue(key:string, value:string){
     sessionIdToUserMap.set(key, value);
@@ -6,9 +6,11 @@ export function setValue(key:string, value:string){
 }
 
 export function getValue(key:string){
+    console.log(sessionIdToUserMap);
     return sessionIdToUserMap.get(key);
 }
 
 export function removeValue(key:string){
+    // console.log(sessionIdToUserMap);
     sessionIdToUserMap.delete(key);
 }

@@ -23,7 +23,7 @@ export async function PUT(request: Request) {
 
 export async function POST(request: Request){
     const item = request.headers.get('item');
-    const res = getValue(String(item));
+    const res = await getValue(String(item));
     if(res==null){
       return NextResponse.json(
           {

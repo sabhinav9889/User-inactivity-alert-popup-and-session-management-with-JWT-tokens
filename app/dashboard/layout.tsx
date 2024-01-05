@@ -1,9 +1,12 @@
 "use client";
-
+import React from "react";
 import axios, { AxiosError } from "axios";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+
+// import {sessionIdToUserMap} from '.././../service/service';
 import Link from "next/link";
+// import {times, setTm} from '../../constants';
 // import { destroyCookie } from 'nookies';
 // import { cookies } from "next/headers"
 // import { COOKIE_NAME } from "@/constants";
@@ -20,28 +23,29 @@ export default function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [isSuccess, setIsSuccess] = useState<boolean>(false);
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [ren, setRend] = useState(false);
   const { push } = useRouter();
-  // const { list, addItem, removeItem } = useContext(MyContext);
+
   useEffect(() => {
     (async () => {
       const { user, error } = await getUser();
-
       if (error) {
         push("/");
         return;
       }
-
-      // if the error did not happen, if everything is alright
       setIsSuccess(true);
+      setRend(true);
     })();
-  }, [push]);
-
+  },[]);
   let inactivityTimeout: NodeJS.Timeout;
   const handleLogout = async() => {
-      alert('User logged out due to inactivity');  // Pop up
-      const { data } = await axios.get("/api/auth/logout");
+      setRend(true);
+      // alert('User logged out due to inactivity');  // Pop up
+      // setTm();
+      push('/popup');
   };
+  
   const resetInactivityTimer = () => {    
     clearTimeout(inactivityTimeout);
     inactivityTimeout = setTimeout(handleLogout, 1 * 10 * 1000); // 10 seconds
@@ -51,23 +55,24 @@ export default function DashboardLayout({
     resetInactivityTimer();
   };
 
-  useEffect(() => {
-    // Attach event listeners on component mount
-    document.addEventListener('mousemove', handleUserActivity);
-    document.addEventListener('click', handleUserActivity);
-    document.addEventListener('onmouseover', handleUserActivity);
-
-    // Initialize the inactivity timer on component mount
-    resetInactivityTimer();
-
-    // Detach event listeners on component unmount  
-    return () => {
-      document.removeEventListener('mousemove', handleUserActivity);
-      document.removeEventListener('click', handleUserActivity);
-      document.removeEventListener('keypress', handleUserActivity);
+    useEffect(() => {
+      // Attach event listeners on component mount
+      document.addEventListener('mousemove', handleUserActivity);
+      document.addEventListener('click', handleUserActivity);
+      document.addEventListener('onmouseover', handleUserActivity);
       document.removeEventListener('hover', handleUserActivity);
-    };
-  }, []); // Empty dependency array ensures that this effect runs once on mount
+
+      // Initialize the inactivity timer on component mount
+      resetInactivityTimer();
+
+      // Detach event listeners on component unmount  
+      // return () => {
+      //   document.removeEventListener('mousemove', handleUserActivity);
+      //   document.removeEventListener('click', handleUserActivity);
+      //   document.removeEventListener('keypress', handleUserActivity);
+      //   document.removeEventListener('hover', handleUserActivity);
+      // };
+    }, []); // Empty dependency array ensures that this effect runs once on mount
 
   if (!isSuccess) {
     return <p>Loading...</p>;
@@ -91,7 +96,7 @@ export default function DashboardLayout({
 async function getUser(): Promise<UserResponse> {
   try {
     const { data } = await axios.get("/api/auth/me");
-
+    // console.log(sessionIdToUserMap);
     return {
       user: data,
       error: null,
